@@ -26,8 +26,8 @@ public class Graph {
         Node I = new Node("I");
         C.addChildren(new Node[]{G, H, I}, C);
         Node J = new Node("J");
-        Node K = new Node("K");
-        D.addChildren(new Node[]{J, K}, D);
+        //Node K = new Node("K");
+        D.addChildren(new Node[]{J}, D);
     }
 
     public ArrayList walkGraph(GNode node) {
